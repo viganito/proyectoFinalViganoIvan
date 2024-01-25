@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taleofus</title>
+    <meta name="description"
+        content="Te dejamos los tour que se hicieron en todos los años para que veas de todos los viajes que llevamos a cabo durante estos años.">
+    <title>Tour - Taleofus</title>
+    <link rel="shortcut icon" href="https://electronicgroove.com/wp-content/uploads/2018/04/Afterlife.jpg"
+        type="image/x-icon">
     <!-- CSS BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body>
-    <header>
-        <a href="">
-            <img class="logo" src="../img/logoafter.jpg" alt="Logo de Coder Taleofus">
-        </a>
-
-        <nav>
-            <ul>
-                <li><a href="../index.html"> Inicio </a></li>
-                <li><a href="diseñologo.html"> Diseño/Logo</a></li>
-                <li><a href="eventos.html"> Eventos </a></li>
-                <li><a href="tour.html"> Tour </a></li>
-                <li><a href="contacto.html"> Contacto </a></li>
-            </ul>
-        </nav>
+    <header class="navbar navbar-expand-lg principio">
+        <img class="logo" src="/img/logoafter.jpg" alt="Logo de Coder Taleofus">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li><a href="/index.html"> Inicio </a></li>
+                    <li><a href="diseñologo.html"> Diseño/Logo</a></li>
+                    <li><a href="eventos.html"> Eventos </a></li>
+                    <li><a href="tour.html"> Tour </a></li>
+                    <li><a href="contacto.html"> Tienda </a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <main class="row">
+
         <h1> Tour </h1>
 
-        <h2> Tour del mundo </h2>
-
-        <div class="contenedorTour">
-            <p>Tour en Latinoamérica que se realizará en Buenos Aires el 2024</p>
-            <img class="imgEventos" src="../img/bsas.jpg" alt="Foto de tour país Buenos Aires">
-        </div>
-
-        <div class="contenedorTour">
+        <div class="tarjeta col-xl-4 col-md-6 col-sm-12">
+            <h2>Chile</h2>
             <p>Tour en Latinoamérica que se realizará en este año en Chile en un día importante </p>
             <img class="imgEventos" src="../img/chile.jpg" alt="Foto de tour país Chile">
         </div>
 
-        <div class="contenedorTour">
+        <div class="tarjeta col-xl-4 col-md-6 col-sm-12">
+            <h2>Ibiza</h2>
             <p>Tour en Europa que fue realizado en Ibiza 'España' </p>
             <img class="imgEventos" src="../img/ibizs.jpg" alt="Foto de tour país España">
         </div>
 
-        <div class="contenedorTour">
-            <p>Tour en América que se realizará en las playas de Tulum el verano del 2024  </p>
+        <div class="tarjeta col-xl-4 col-md-6 col-sm-12">
+            <h2>Tulum México</h2>
+            <p>Tour en América que se realizará en las playas de Tulum el verano del 2024 </p>
             <img class="imgEventos" src="../img/tulum.jpg" alt="Foto de tour país México">
         </div>
     </main>
@@ -70,6 +77,7 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
+
 </html>

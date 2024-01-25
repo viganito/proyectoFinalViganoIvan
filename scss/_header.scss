@@ -1,0 +1,62 @@
+@mixin anclas {
+    text-decoration: none;
+    color: #000080;
+}
+
+header {
+    list-style: none;
+    display: inline-block;
+    border-bottom: 0px solid $color-azuloscuro;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 250px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    @include anclas;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid $color-negro;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: $color_celesteclaro;
+    text-transform: inherit;
+    margin: 0px;
+    font-size: 40px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+footer {
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+}

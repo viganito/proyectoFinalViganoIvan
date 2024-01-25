@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taleofus</title>
+    <meta name="description" content="Ponete en contacto con nosotros que te vamos a guiar todo lo que podamos.">
+    <title>Contacto - Taleofus</title>
+    <link rel="shortcut icon" href="https://electronicgroove.com/wp-content/uploads/2018/04/Afterlife.jpg"
+        type="image/x-icon">
     <!-- CSS BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body>
-    <header>
-        <a href="">
-            <img class="logo" src="../img/logoafter.jpg" alt="Logo de Coder Taleofus">
-        </a>
-
-        <nav>
-            <ul>
-                <li><a href="../index.html"> Inicio </a></li>
-                <li><a href="diseñologo.html"> Diseño/Logo</a></li>
-                <li><a href="eventos.html"> Eventos </a></li>
-                <li><a href="tour.html"> Tour </a></li>
-                <li><a href="contacto.html"> Contacto </a></li>
-            </ul>
-        </nav>
+    <header class="navbar navbar-expand-lg principio">
+        <img class="logo" src="/img/logoafter.jpg" alt="Logo de Coder Taleofus">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li><a href="/index.html"> Inicio </a></li>
+                    <li><a href="diseñologo.html"> Diseño/Logo</a></li>
+                    <li><a href="eventos.html"> Eventos </a></li>
+                    <li><a href="tour.html"> Tour </a></li>
+                    <li><a href="contacto.html"> Tienda </a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <main class="row">
         <h1> Tienda </h1>
 
-        <div class="contenedorContacto">
-            <img class="imgContacto" src="../img/tienda.png" alt="Foto de contacto sobre la tienda">
-            <p>Remera color Blanca Afterlife</p>
-            <button class="boton">Comprar</button>
+        <div class="tarjeta col-xl-4 col-md-10">
+            <img class="imgContacto" src="../img/tienda.png" alt="Foto de remera blanca de las primeras que salieron 2019 en la tienda/contacto">
+            <p>Remera color Blanca Afterlife 2019</p>
+            <button class="boton"> Comprar </button>
+        </div>
+            
+        <div class="tarjeta col-xl-4 col-md-10">
+            <img class="imgContacto" src="../img/tienda1.png" alt="Foto de remera negra más actual del 2023 en la tienda/contacto">
+            <p>Remera color Negra Afterlife 2023</p>
+            <button class="boton"> Comprar </button>
+        </div>
 
-            <div class="contenedorContacto">
-            <img class="imgContacto" src="../img/tienda1.png" alt="Foto de contacto sobre la tienda">
-            <p>Remera color Negra Afterlife</p>
-            <button class="boton">Comprar</button>
-
-        <h2> Socios/as </h2>
+        <div class="tarjeta col-xl-4 col-md-10">
+            <img class="imgContacto" src="/img/remeraafterrr.webp" alt="Foto de remera negra 2022 en la tienda/contacto ">
+            <p>Remera color Negra Afterlife 2022</p>
+            <button class="boton"> Comprar </button>
+        </div>
 
         <form>
             <label for="mail"> Mail </label>
@@ -59,10 +74,11 @@
             <input class="btnFormulario" type="reset">
 
             <div>
-                <img class="logoTik" src="../img/logotik.png" alt="Logo de tiktok que podes acceder">
+                <img class="logoTik" src="/img/logotik.webp" alt="Logo de tiktok que podes acceder">
             </div>
 
         </form>
+
     </main>
 
     <footer class="footer">
@@ -82,6 +98,7 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
+
 </html>

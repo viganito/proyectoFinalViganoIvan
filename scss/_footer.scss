@@ -1,0 +1,35 @@
+.footer {
+    background-color: $color-celeste;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footerContenido {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer h4 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.viaRedes a {
+    color: $color-azul;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+    &:hover {
+        color: #dc143c;
+    }
+}
+
+.footer i {
+    margin-right: 5px;
+}
