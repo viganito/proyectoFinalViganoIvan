@@ -2,12 +2,14 @@
     margin: 20px;
     border: 2px solid $color-gris;
     border-radius: 5px;
+    margin-inline: 0;
 }
 
 .imgDiseñologo {
     display: block;
     width: 100%;
     height: auto;
+    margin-inline: 0;
 }
 
 .contenedorDiseñologo {
@@ -20,4 +22,5 @@
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
+    margin-inline: 0;
 }

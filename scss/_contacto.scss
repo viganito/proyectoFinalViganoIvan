@@ -1,6 +1,7 @@
 .contenedorContacto {
     text-transform: uppercase;
     color: $color-azuloscuro;
+    margin-inline: 0;
 }
 
 iframe {
@@ -21,6 +22,7 @@ label {
     font-weight: bold;
     margin-bottom: 5px;
     color: $color-negro;
+    margin-inline: 0;
 }
 
 input[type="text"],
@@ -34,6 +36,12 @@ textarea {
     margin-bottom: 10px;
 }
 
+.boton:hover {
+    background-color: $color-grisclaro;
+    color: $color-azuloscuro;
+    cursor: pointer;
+}
+
 .btnFormulario {
     background-color: $color-negro;
     color: $color-blancoclaro;
@@ -45,10 +53,44 @@ textarea {
     margin-top: 10px;
 }
 
-.imgContacto {
-    height: auto;
-    display: block;
-    width: 100%;
+.bannerContenido .boton {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.boton {
+    margin-top: 10px;
+    color: blueviolet;
+
+    &:hover {
+        color: slateblue;
+    }
+}
+
+.boton {
+    background: linear-gradient(to right, $color-grisclaro, $color-grisclaro);
+}
+
+@keyframes afterlino {
+    0% {
+        width: 220px;
+    }
+
+    25% {
+        width: 240px;
+    }
+
+    50% {
+        width: 260px;
+    }
+
+    75% {
+        width: 280px;
+    }
+
+    100% {
+        width: 300px;
+    }
 }
 
 .logoTik {
